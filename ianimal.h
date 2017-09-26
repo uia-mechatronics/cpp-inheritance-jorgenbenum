@@ -8,6 +8,7 @@ public:
 
     virtual ~IAnimal() {}
 
+    // dette er en pure virtuel (=0) som tvinger deg til å lage en slik funksjon i alle arvede classer
     virtual void move() = 0;
 
 };

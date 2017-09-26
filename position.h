@@ -8,6 +8,11 @@ public:
     Position(double x, double y);
     ~Position();
 
+    double getXPosition ();
+    double getYPosition ();
+
+    void setXPosition (double x);
+    void setYPosition (double y);
     // Legg til get- og set-funksjoner her.
 
 private:

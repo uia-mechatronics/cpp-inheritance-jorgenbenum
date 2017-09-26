@@ -1,6 +1,8 @@
 #ifndef IPOSITIONPROVIDER_H
 #define IPOSITIONPROVIDER_H
 
+#include "position.h"
+
 class IPositionProvider
 {
 public:
